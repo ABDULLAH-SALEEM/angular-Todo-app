@@ -1,0 +1,15 @@
+<div class="my-5">
+    <h5>
+        {{todo.sno}}{{")"}}
+    </h5>
+    <h3>
+        {{todo.title}}
+    </h3>
+    <p>
+        {{todo.desc}}
+    </p>
+
+    <button class="btn btn-danger" (click)="onDeleteTodo(todo)">
+        Delete
+    </button>
+</div>
